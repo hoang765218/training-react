@@ -45,7 +45,7 @@ export default class StateDemo extends Component {
   handleLogin = () => {
     // this.state.login = true;  // Không được thay đổi state trực tiếp mà phải thông qua phương thức setState
     // console.log(this.state.login);
-    let newState = { login: true };
+    // let newState = { login: true };
     /*
     +this.setState là phương thức có sẵn của react class component, làm thay đổi giá trị state cũ đồng thời render lại giao diện
 
